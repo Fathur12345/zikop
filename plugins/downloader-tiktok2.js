@@ -17,6 +17,6 @@ conn.sendFile(m.chat, f.play, 'ttmp4', cap, m)
 }
 handler.help = ['tiktok2', 'tt2'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(tiktok2|tt2)$/i
+handler.command = /^(tiktok|tt)$/i
 handler.limit = true
 export default handler
