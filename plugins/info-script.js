@@ -2,11 +2,10 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 
 let str = `
-🚩 This bot uses the Script from the ZYKO BOTZ MD channel. Please visit the YouTube link below:
-https://www.youtube.com/@zykobotz
+🚩 Mau Script bot ini??
 
-owner contact
-wa.me/6282127487538`
+chat owner contact
+wa.me/6281260431003`
 conn.sendMessage(m.chat, {
 text: str,
 contextInfo: {
